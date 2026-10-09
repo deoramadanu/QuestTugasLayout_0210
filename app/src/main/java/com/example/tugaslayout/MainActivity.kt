@@ -126,3 +126,9 @@ text = stringResource(id = alamatRes),
 color = Color.White,
 fontSize = 12.sp
 )
+// Logo UMY Kanan
+Image(
+painter = painterResource(id = R.drawable.logo_umy),
+contentDescription = null,
+modifier = Modifier.size(45.dp)
+)
