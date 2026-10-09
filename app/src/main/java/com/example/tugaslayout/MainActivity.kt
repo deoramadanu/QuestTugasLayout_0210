@@ -23,3 +23,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Composable
+fun MainScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Spacer(modifier = Modifier.height(32.dp))
+    }
+}
