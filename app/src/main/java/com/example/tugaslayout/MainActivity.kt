@@ -67,3 +67,11 @@ hpRes = R.string.hp_4,
 alamatRes = R.string.alamat_4,
 bgColorRes = R.color.bg_green
 )
+Spacer(modifier = Modifier.weight(1f))
+
+// Tulisan Copyright di bawah
+Text(
+text = stringResource(id = R.string.copyright),
+fontSize = 10.sp,
+modifier = Modifier.padding(bottom = 24.dp)
+)
