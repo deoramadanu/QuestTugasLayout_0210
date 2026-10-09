@@ -37,4 +37,8 @@ Text(
 text = stringResource(id = R.string.fakultas),
 fontWeight = FontWeight.Bold,
 fontSize = 20.sp
+)Text(
+text = stringResource(id = R.string.universitas),
+fontSize = 14.sp,
+modifier = Modifier.padding(bottom = 24.dp)
 )
