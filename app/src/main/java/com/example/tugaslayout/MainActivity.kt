@@ -32,3 +32,9 @@ fun MainScreen(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(32.dp))
     }
 }
+// Judul Atas
+Text(
+text = stringResource(id = R.string.fakultas),
+fontWeight = FontWeight.Bold,
+fontSize = 20.sp
+)
