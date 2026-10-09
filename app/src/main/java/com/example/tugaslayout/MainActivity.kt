@@ -101,3 +101,15 @@ painter = painterResource(id = R.drawable.logo_umy),
 contentDescription = null,
 modifier = Modifier.size(45.dp)
 )
+// Teks di Tengah
+Column(
+horizontalAlignment = Alignment.CenterHorizontally,
+modifier = Modifier.weight(1f)
+) {
+    Text(
+        text = stringResource(id = namaRes),
+        color = Color.White,
+        fontWeight = FontWeight.Bold,
+        fontSize = 18.sp
+    )
+}
