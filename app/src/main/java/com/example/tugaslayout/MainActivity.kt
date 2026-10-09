@@ -49,3 +49,9 @@ hpRes = null,
 alamatRes = R.string.alamat_1,
 bgColorRes = R.color.bg_grey
 )
+ProfileCardWidget(
+namaRes = R.string.nama_2,
+hpRes = R.string.hp_2,
+alamatRes = R.string.alamat_2,
+bgColorRes = R.color.bg_purple
+)
