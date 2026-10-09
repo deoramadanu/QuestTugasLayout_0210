@@ -113,3 +113,16 @@ modifier = Modifier.weight(1f)
         fontSize = 18.sp
     )
 }
+// Cek kalau nomor HP ada isinya (tidak null)
+if (hpRes != null) {
+    Text(
+        text = stringResource(id = hpRes),
+        color = colorResource(id = R.color.text_cyan),
+        fontSize = 12.sp
+    )
+}
+Text(
+text = stringResource(id = alamatRes),
+color = Color.White,
+fontSize = 12.sp
+)
