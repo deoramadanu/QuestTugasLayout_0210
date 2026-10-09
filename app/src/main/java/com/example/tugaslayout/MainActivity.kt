@@ -75,3 +75,23 @@ text = stringResource(id = R.string.copyright),
 fontSize = 10.sp,
 modifier = Modifier.padding(bottom = 24.dp)
 )
+// === FUNGSI WIDGET CARD (Dibuat terpisah sesuai Aturan 2) ===
+@Composable
+fun ProfileCardWidget(
+    namaRes: Int,
+    hpRes: Int?,
+    alamatRes: Int,
+    bgColorRes: Int
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 24.dp, vertical = 8.dp)
+            .clip(RoundedCornerShape(12.dp))
+            .background(colorResource(id = bgColorRes))
+            .padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+    }
+}
