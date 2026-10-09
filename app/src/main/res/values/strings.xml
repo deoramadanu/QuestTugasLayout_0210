@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TugasLayout</string>
-</resources>
+
+    <string name="fakultas">Teknologi Informasi</string>
+    <string name="universitas">Universitas Muhammadiyah Yogyakarta</string>
