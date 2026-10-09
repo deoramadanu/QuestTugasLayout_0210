@@ -42,3 +42,10 @@ text = stringResource(id = R.string.universitas),
 fontSize = 14.sp,
 modifier = Modifier.padding(bottom = 24.dp)
 )
+// Memanggil fungsi Card (Syarat Tugas: Reusability)
+ProfileCardWidget(
+namaRes = R.string.nama_1,
+hpRes = null,
+alamatRes = R.string.alamat_1,
+bgColorRes = R.color.bg_grey
+)
